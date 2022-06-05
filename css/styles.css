@@ -15,6 +15,8 @@ body {
     letter-spacing: 0.03em;
     color: var(--color-primaty);
 
+    
+
 }
 
 .link {
@@ -42,8 +44,6 @@ h1,h2,h3,ul,p{
    margin: 0px;
 
  }
-
-
 
  .nav-item .link:hover, 
  .nav-item .link:focus, .contacts-item .link:hover, .contacts-item:focus, .contacts-item-footer .link:hover, .contacts-item-footer .link:focus {
@@ -154,20 +154,46 @@ color: var(--color-secondary);
     padding-bottom: 32px;
 }
 
+.contacts{
+   width: 161px;
+   height: 16px;
+}
+
+
+
+
+.icon-contacts{
+
+    width: 16px;
+    height: 12px;
+
+}
+
+.icon-contacts:hover{
+    fill: var(--color-blue);
+
+}
  
   /* Баннер */
 
   .banner {
       padding-bottom: 200px;
      padding-top: 200px;
-
-      background-color: var(--back-color);
       text-align: center;
+
+
+
+      background-repeat: no-repeat;
+
+
+      background-image: url(../images/banner.jpg);
+      background-size: cover;
+       
   }
 
 
+ 
   
-
   .title-banner{
     
      max-width: 696px;
@@ -224,6 +250,13 @@ color: var(--color-secondary);
     clip: rect(0 0 0 0);
 
 
+}
+
+.icon-decs{
+    width: 270px;
+    height: 120px;
+    fill:  #F5F4FA;
+    margin-bottom: 30px;
 }
 
 
@@ -338,6 +371,42 @@ background-color: var(--color-adress);
 }
 
 
+
+/* Иконки Соц сететей команды */
+
+.icon-command{
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+    
+    
+   
+   
+   
+}
+
+.social-links-item:not(:last-child){
+    margin-right: 22px;
+}
+
+.icon-command:hover{
+fill: var(--color-blue);
+
+}
+
+
+
+
+.social-links{
+    display: flex;
+    margin-top: 16px;
+   margin-left: 32px;
+      
+}
+
+
+
+/*  */
 .text-comand,.title-team{
 
     text-align: center;
@@ -370,6 +439,29 @@ background-color: var(--color-adress);
 }
 
 
+.clients{
+    display: flex;
+
+}
+
+
+.icon-clients{
+    width: 170px;
+    height: 92px;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        padding: 16px 32px;
+        fill: #AFB1B8;;
+}
+
+.icon-clients:hover{
+    fill: var(--color-blue);
+    border-color: var(--color-blue);
+}
+
+.icon-item:not(:last-child){
+    margin-right: 30px;
+}
 
 /* Низ */
 
@@ -401,6 +493,39 @@ background-color: var(--color-adress);
 
 .contacts-item-footer:not(:last-child){
     margin-bottom: 9px;
+}
+
+
+.flex-footer{
+   display: flex;
+    
+}
+
+.d{
+    display: flex;
+  
+    
+}
+
+.icon-links-footer{
+    width: 44px;
+    height: 44px;
+    background-color: #2196F3;
+}
+
+.text-links-footer{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: uppercase;
+    color: var(--color-adress);
+
+    margin-left: 156px;
+    
+
+  
+    
+    
 }
 
 /* Портфолио */
