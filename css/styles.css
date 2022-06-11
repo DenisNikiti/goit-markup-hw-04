@@ -154,12 +154,6 @@ color: var(--color-secondary);
     padding-bottom: 32px;
 }
 
-.contacts{
-   width: 161px;
-   height: 16px;
-}
-
-
 
 
 .icon-contacts{
@@ -250,20 +244,29 @@ color: var(--color-secondary);
 }
 
 .icon-decs{
-    width: 100%;
+    width: 70px;
     height: 70px;
    
    
-    margin-bottom: 30px;
-
-    border-radius: 4px;
-    background-color: #F5F4FA;
     
+
+   
 
 
 }
 
+.decs-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    padding: 25px 100px;
 
+}
 
 .card{
     display: flex;
@@ -413,10 +416,13 @@ background-color: var(--color-adress);
     
     }
 
-   .social-link:hover .icon-command{
+   .social-link:hover  .icon-command{
     fill: #ffffff;
    }
 
+   .social-link:focus .icon-command{
+       fill: #ffffff;
+   }
 
 .social-links{
     display: flex;
@@ -489,6 +495,10 @@ background-color: var(--color-adress);
 .clients-link:hover .icon-clients{
     fill: var(--color-blue);
 }
+.clients-link:focus .icon-clients{
+    fill: var(--color-blue);
+}
+
 .icon-clients {
     width: 106px;
     height: 60px;
@@ -567,10 +577,13 @@ background-color: var(--color-adress);
     
 }
 
+.footer .social-links{
+    margin-top: 20px;
+}
 
 .footer-item .social-link{
 
-    border-radius: 50%;
+    
     background-color: rgba(255, 255, 255, 0.1);
     
 }
@@ -665,6 +678,6 @@ background-color: var(--color-adress);
     text-decoration: none;
 }
 
-.border-procets:hover{
+.link-procets:hover .border-procets {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
